@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaya by CaratLane</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Bootstrap JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    /* Carousel image size */
+    .carousel-inner img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    /* Card spacing */
+    .card {
+      margin-bottom: 30px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .card img {
+      height: 420px;
+      object-fit: cover;
+    }
+
+    /* Section spacing */
+    .section-title {
+      text-align: center;
+      margin: 50px 0 30px 0;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #212529;
+      color: #fff;
+      padding: 30px 0;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">SHAYA BY CARATLANE <i class="fas fa-gem ms-2"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="earringsboot.html">Earrings</a></li>
+          <li class="nav-item"><a class="nav-link" href="necklacesboot.html">Necklaces</a></li>
+          <li class="nav-item"><a class="nav-link" href="bracelatesboot.html">Bracelets</a></li>
+          <li class="nav-item"><a class="nav-link" href="ringsboot.html">Rings</a></li>
+          <li class="nav-item"><a class="nav-link" href="collectionsboot.html">Collections</a></li>
+          <li class="nav-item"><a class="nav-link" href="giftsboot.html">Gifts</a></li>
+        </ul>
+        <ul class="navbar-nav ms-4">
+          <li class="nav-item"><a class="nav-link" href="personboot.html"><i class="bi bi-person"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-search"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-heart"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+
+  <!-- New Arrivals Banner -->
+  <div class="bg-light py-2 mt-2">
+    <h5 class="text-center fw-bold text-uppercase mb-0">NEW ARRIVALS</h5>
+    <marquee><a href="#">Shop now</a></marquee>
+  </div>
+
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide mt-4">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://marketplace.canva.com/EAEo2Tqgahw/1/0/1600w/canva-gold-minimalist-jewelry-new-arrival-landscape-banner-ommDXeEMVKo.jpg" class="d-block w-100" alt="First slide">
+        <div class="carousel-caption d-none d-md-block text-dark bg-light bg-opacity-50 rounded p-2">
+          <h5>New Arrivals</h5>
+          <p>Luxurious Jewellery</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://aminjewelers.com/a/blog/media/ba7760-bd.myshopify.com/Post/featured_img/f1bf7daa-53f1-48a5-95ac-ca1403810317.png" class="d-block w-100" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block text-dark bg-light bg-opacity-50 rounded p-2">
+          <h5>Gold Rings</h5>
+          <p>Antique Designs</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://www.finejewellerybycolette.com/cdn/shop/articles/67d76b44a5ba8bcd0fc6aca8-1742190201880_7ea9d0a6-134d-4790-ad5f-ff72020fab7e_2752x.jpg?v=1742207110" class="d-block w-100" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block text-dark bg-light bg-opacity-50 rounded p-2">
+          <h5>Diamond Jewellery</h5>
+          <p>Exclusive Collection</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Product Cards -->
+  <div class="container">
+    <h3 class="section-title">Featured Products</h3>
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.cltstatic.com/media/product/350/AT00522-SS0000-shell-yeah-bracelet-in--silver-prd-1-model.jpg" class="card-img-top" alt="Bracelet">
+          <div class="card-body">
+            <h5 class="card-title">Shell Yeah Bracelet</h5>
+            <h6 class="text-muted">₹2,430 <span class="text-decoration-line-through">₹2,700</span> <span class="badge bg-success">10% OFF</span></h6>
+            <p class="card-text">Minimal Chain Bracelet crafted in 925 silver with a shell motif.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Gross Weight: 3.480 g</li>
+            <li class="list-group-item">Material: 925 Silver</li>
+            <li class="list-group-item">Finish: High Polish</li>
+            <li class="list-group-item">Country of Origin: India</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.cltstatic.com/media/product/350/AE00521-SS0000-oxidised-rise-above-fear-earrings-in--silver-prd-1-model.jpg" class="card-img-top" alt="Earrings">
+          <div class="card-body">
+            <h5 class="card-title">Rise Above Fear Earrings</h5>
+            <h6 class="text-muted">₹4,085 <span class="text-decoration-line-through">₹4,300</span> <span class="badge bg-success">5% OFF</span></h6>
+            <p class="card-text">Silver Lotus Stud Earrings crafted in Oxidised 925 Silver.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Gross Weight: 6.000 g</li>
+            <li class="list-group-item">Material: 925 Silver</li>
+            <li class="list-group-item">Finish: High Polish</li>
+            <li class="list-group-item">Country of Origin: India</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.cltstatic.com/media/product/350/AV00085-SS0000-oxidised-owning-my-chaotic-order-nose-pin-in--silver-prd-1-model.jpg" class="card-img-top" alt="Nose Pin">
+          <div class="card-body">
+            <h5 class="card-title">Chaotic Order Nose Pin</h5>
+            <h6 class="text-muted">₹630 <span class="text-decoration-line-through">₹700</span> <span class="badge bg-success">10% OFF</span></h6>
+            <p class="card-text">Silver Enamelled unique Nose Pin crafted in 925 Silver.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Gross Weight: 0.300 g</li>
+            <li class="list-group-item">Material: 925 Silver</li>
+            <li class="list-group-item">Finish: High Polish</li>
+            <li class="list-group-item">Country of Origin: India</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2025 Shaya by CaratLane. All rights reserved.</p>
+      <p>
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Terms & Conditions</a> | 
+        <a href="#">Contact Us</a>
+      </p>
+      <div>
+        <a href="#"><i class="fab fa-facebook fa-lg me-3"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-lg me-3"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
